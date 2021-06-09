@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boxes in everyday sites</title>
+  <link href="examples.css" rel="stylesheet">
+</head>
+<body>
+  <h1>We use boxes and their associated rules all the time</h1>
+  <div class="container">
+  <p>Boxes help us treat different elements separately and interact with them in different ways.
+    It's easy to notice boxes in different places on websites once you start looking out for them.
+    We can see how the html and css code organize websites using boxes with google chrome's inspect
+    element feature.
+  </p>
+  </div>
+
+  <div class="container">
+  <p>Take a look at the website for the town I'm from- the html and css are clearly marked to show where
+    boxes start and end, independently of the content they contain.
+  </p>
+  </div>
+
+  <img src="lombardex.jpeg" alt="the village of lombard website">
+
+  <div class="container2">
+    <p> The area of the website containing all the content below the header is marked as "structural container",
+      and the line of code that controls it is marked in red. You can also see it named in the style sheet, shown underneath the html. It
+      creates a way to apply rules to only that portion of the site, and has its own borders, margins, and padding.
+    </p>
+    </div>
+
+  <div class="container">
+     <p>Even though the code looks a lot more complicated, this is even essential to the way that huge and complicated sites like youtube are designed.
+    </p>
+   </div>
+
+   <img src="youtube.jpeg" alt="screenshot of desktop version of youtube">
+
+   <div class="container">
+    <p>Here is what youtube's website looks like on desktop. Think about which elements of the site would be
+      useful to be treated differently from one another in order to guess where the boxes are.
+      It's not just deciding which elements physically look like boxes.
+    </p>
+    </div>
+
+  <img src="ytheader.jpeg" alt="Youtube's header and its code are now highlighted">
+
+  <div class="container2">
+    <p>For example, this is the header highlighted. Do you notice how each clickable element isn't highlighted separately, but rather that the whole group of elements
+      has a common box together?
+    </p>
+    </div>
+
+  <img src="ytplayer.jpeg" alt="the youtube player is now highlighted">
+
+  <div class="container2">
+    <p>Even though the code that actually controls the youtube player itself is dealt with separately,
+      the youtube player is within a box that keeps it at a consistent position and stores the script for the interactivity.
+      It also links to where the video is being stored, which is actually a different link than the one you or I would get by copying
+      and pasting the youtube link to one of our friends
+    </p>
+    </div>
+
+    <div class="container">
+    <p><a href=start.html>Click this to return</a></p>
+    </div>
+</body>
+</html>
